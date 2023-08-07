@@ -11,7 +11,7 @@ Contains `CreateStructure.sql` to create DB schema.
 Contain `dbo.udf_GetSKUPrice.sql` to create a function to calculate the price of a product.
 
 ### VIEWs
-Contain `dbo.vw_SKUPrice.sql` to create a view of all columns of `dbo.SKU` + calculated (with `dbo.udf_GetSKUPrice.sql`) column named `Price`.
+Contain `dbo.vw_SKUPrice.sql` to create a view of all columns of `dbo.SKU` + calculated (with `dbo.udf_GetSKUPrice`) column named `Price`.
 
 ### Procedures
 Contain `dbo.usp_MakeFamilyPurchase.sql` to create a procedure to calculate and update `dbo.Family.BudgetValue`.
